@@ -1,12 +1,163 @@
+
+
+/*-----------
+    Header Section-----*/
 .header{
     background-image: url("../images/ashkan-forouzani-7blIFp0kFP4-unsplash.jpg");
     position: relative;
     background-size: cover;
-    min-height: 650px;
+    min-height: 680px;
     font-weight: 600;
     font-size: 24px;
 }
-.navbar-brand{
-    font-size: 30px;
-    letter-spacing: 3px;
+.header-section {
+	padding-left: 55px;
+    padding-right: 72px;
+}
+.site-logo {
+	display: inline-block;
+	padding: 0;
+	padding: 44px 15px;
+	font-size: 25px;
+}
+.main-menu {
+	list-style: none;
+	float: right;
+}
+
+.main-menu li {
+	display: inline-block;
+	position: relative;
+}
+
+.main-menu li a {
+	display: block;
+	font-size: 16px;
+	color: #ffffff;
+	padding: 55px 5px;
+	margin-left: 20px;
+}
+
+.main-menu li a:hover {
+	color: #fc0254;
+}
+
+.main-menu li:first-child a {
+	margin-left: 0;
+}
+
+
+/*How Section*/
+.how-section {
+	background-image: url("../images/how-to-bg.jpg");
+}
+
+.how-item .hi-icon {
+	position: relative;
+	width: 57px;
+	height: 57px;
+	border-radius: 50%;
+	background: #fc0254;
+	margin-bottom: 25px;
+}
+
+.how-item .hi-icon img {
+	position: absolute;
+	right: -8px;
+	bottom: 0;
+}
+
+.how-item h4 {
+	margin-bottom: 25px;
+}
+
+.how-item p {
+	font-weight: 400;
+	opacity: 0.6;
+}
+
+/*Footer Section*/
+.footer-section {
+    background: black;
+}
+/*.footer-section a{
+    text-decoration: none;
+    margin: 10px;
+}
+.logo-footer a{
+    text-decoration: none;
+}
+.copyright {
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #505565;
+	padding: 10px 0 25px;
+}
+
+.social-links a {
+	display: inline-block;
+	color: #6a7080;
+	font-size: 20px;
+	margin-right: 35px;
+}*/
+
+/* ----------------
+Contact page
+ -------------------*/
+
+ .map {
+	height: 100%;
+	background: #ddd;
+}
+
+.map iframe {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+.contact-warp {
+	padding: 100px 53px 104px 78px;
+}
+
+.contact-warp p {
+	padding-top: 40px;
+	margin-bottom: 50px;
+}
+
+.contact-warp ul {
+	margin-bottom: 90px;
+	list-style: none;
+}
+
+.contact-warp ul li {
+	font-size: 14px;
+	color: #0a183d;
+	font-size: 14px;
+	margin-bottom: 15px;
+	font-weight: 500;
+}
+
+.contact-from input,
+.contact-from textarea {
+	width: 100%;
+	height: 57px;
+	padding: 0 38px;
+	border: none;
+	border-radius: 20px;
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 14px;
+	color: #6a7080;
+	background: #f5f6fa;
+}
+
+.contact-from textarea {
+	resize: none;
+	padding: 24px 38px 10px;
+	height: 177px;
+	margin-bottom: 57px;
 }

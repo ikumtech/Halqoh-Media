@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>Lecture_Hub</title>
     <meta name="description" content="A lecture hub to help muslims around the world download and listen to audios of different lecture"/>
-   
+    <meta name="keyword" content="lecture, islamic lectures, muslim, Media, web application"/>
+    <meta name="revised" content="Halqoh Media, 4/18/2020"/>
+    <meta name="cookie" content=""/>
+
     <!--Favicon-->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
 
     <!--Google font-->
     <link href="https://fonts.googleapis.com/css?family=Dosis:600|Roboto:400,700" rel="stylesheet">
@@ -30,20 +35,51 @@
 
 </head>
 <body>
+    <!--Preloading-->
+    <div class="preloader">
+    <div class="ring">
+        Loading
+        <span></span>
+    </div>
+    </div>
     <!--Header Section-->
-    <header class="header-section header clearfix">
+    <header class="header-section header  clearfix">
         <!--Navbar-->
-        <a href="index.html" class="site-logo"><img src="images/Halqoh logo.jpg" alt="logo" width="80">Halqoh Media</a>
-		<ul class="main-menu">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="#features">Features</a></li>
-			<li><a href="#">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a role="button"  href="#">LOGIN</a></li>
-            <li><a role="button" class="" href="#">Sign Up</a></li>
-		</ul>
+        <nav class="navbar navbar-expand-md bg-dark fixed-top navbar-dark">
+            <div class="container">
+                <a class="navbar-brand px-0 py-0" href="#"><img class="img-fluid pr-3 aa-logo-img "  src="images/Halqoh logo.jpg" alt="logo" width="50"><span id="site-name"> Halqoh Media</span></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+          
+                <div class="collapse.show navbar-link collapse navbar-collapse" id="myNavbar">
+                    <ul class=" navbar-nav ml-auto">
+                        <li class="nav-item active"><a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a role="button" class=" btn btn-round btn-sm nav-link" style="border-radius: 50px; background: #fc1204; color: whit;" href="#">LOGIN</a></li>
+                        <li class="nav-item"><a role="button" class=" btn btn-dark btn-lg btn-outline-dark nav-link" href="#"><span class="spinner-grow spinner-grow-sm"></span>Sign Up</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+       <div class="container-about">
+            <div class="row">
+                <div  class="col-md-6 col-sm-12">
+                    <div class="text-header">
+                        <h2><span>Halqoh Media</span> <br> for everyone.</h2>
+                        <p>is your one stop platform for all Islamic audio lectures. whether you are an Ustadhz, lecture co-ordinator or just seeking for authentic islamic lecture , this is the place for you.  </p>
+                        <a href="#" class="site-btn btn btn-danger ">SIGN UP</a>
+                    </div>
+                </div>
+
+            </div>
+       </div>
     </header>
     <!--Header Section Ends-->
+    
 
     <!--features-->
     <section>
@@ -53,36 +89,37 @@
                           <h2>Record,<span class="share">Share</span> Listen</h2>
                           <p>to different lecture from different co-ordinators</p>
                       </div>
-                      <div class="col-sm-3 col-lg-5"><br><img class="img-fluid " src="img/playlist/15.jpg"></div>
+                      <div class="col-sm-3 col-lg-5"><br><img class="img-fluid " src="images/listen-icon-69.jpg"></div>
                 </div>
                 <div class="row">
-                      <div class="col-sm-3 col-lg-5"><br>
-                          <img class="img-fluid " src="img/blog/1.jpg"></div>
                       <div class="col-sm-3 col-lg-5"><br><br>
                           <h2>Create Groups</h2>
                           <p>on different form of learning</p>
                       </div>
+                      <div class="col-sm-3 col-lg-5"><br>
+                        <img class="img-fluid " src="images/person-icon-1693.jpg"></div>
                 </div>
                 <div class="row">
                       <div class="col-sm-3 col-lg-5"> <br><br>
                           <h2>Upload & Share</h2>
                           <p>Lectures to different platforms </p>
                       </div>
-                      <div class="col-sm-3 col-lg-5"><img class="img-fluid " src="img/playlist/15.jpg"></div>
+                      <div class="col-sm-3 col-lg-5"><img class="img-fluid " src="images/upload-icon-6.jpg"></div>
                 </div>
                 <div class="row">
-                      <div class="col-sm-3 col-lg-5"><img class="img-fluid " src="img/playlist/15.jpg"></div>
                       <div class="col-sm-3 col-lg-5"> <br><br>
                           <h2>Subscribe to a group </h2>
                           <p>to learn more about the theme</p>
                       </div>
+                      <div class="col-sm-3 col-lg-5"><img class="img-fluid " src="images/george-kourounis-ibFKkzyqemk-unsplash.jpg" width="500" height="250">
+                        </div>
                 </div>
                 <div class="row">
-                      <div class="col-md-4"> <br/> <br/>
+                      <div class="col-sm-3 col-lg-5"> <br/> <br/>
                           <h2>Download & Listen</h2>
                           <p>to Lectures of different types. </p>
                       </div>
-                      <div class=""><img class="img-fluid " src="img/playlist/15.jpg"></div>
+                      <div class="col-sm-3 col-lg-5"><img class="img-fluid " src="images/neonbrand-bE3_aFt85Y8-unsplash.jpg"></div>
                 </div>
             </div>	
         </section>

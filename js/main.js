@@ -1,3 +1,16 @@
+$(window).on('load', function() {
+	/*------------------
+		Preloder
+	--------------------*/
+	$(".ring").fadeOut();
+	$("#preloder").delay(400).fadeOut("slow");
+
+	if($('.playlist-area').length > 0 ) {
+		var containerEl = document.querySelector('.playlist-area');
+		var mixer = mixitup(containerEl);
+	}
+
+});
 
 (function($) {
 	/*------------------
